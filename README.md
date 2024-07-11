@@ -1,1 +1,5 @@
-# azure_devops
+#!/bin/bash
+
+x=mississipi
+
+grep -o "s" <<<"$x" | wc -l 
